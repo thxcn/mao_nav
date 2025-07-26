@@ -443,6 +443,13 @@ export const mockData = {
           "url": "https://developer.mozilla.org/zh-CN/docs/Learn",
           "description": "",
           "icon": "https://developer.mozilla.org/favicon-192x192.png"
+        },
+        {
+          "id": "site-1753554213732",
+          "name": "Vue.js",
+          "url": "https://cn.vuejs.org/",
+          "description": "",
+          "icon": "/sitelogo/cn.vuejs.org.ico"
         }
       ]
     }
