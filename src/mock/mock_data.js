@@ -450,6 +450,13 @@ export const mockData = {
           "url": "https://cn.vuejs.org/",
           "description": "",
           "icon": "/sitelogo/cn.vuejs.org.ico"
+        },
+        {
+          "id": "site-1753554997924",
+          "name": "Git",
+          "url": "https://git-scm.com/book/zh/v2",
+          "description": "",
+          "icon": "/sitelogo/git-scm.com.ico"
         }
       ]
     }
