@@ -436,7 +436,29 @@ export const mockData = {
       "icon": "📃",
       "name": "官方文档",
       "order": 0,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1753553278553",
+          "name": "Mozilla开发者",
+          "url": "https://developer.mozilla.org/zh-CN/docs/Learn",
+          "description": "",
+          "icon": "/sitelogo/developer.mozilla.org.ico"
+        },
+        {
+          "id": "site-1753553334926",
+          "name": "Vite",
+          "url": "https://vitejs.cn/vite3-cn/",
+          "description": "",
+          "icon": "/sitelogo/vitejs.cn.ico"
+        },
+        {
+          "id": "site-1753553388120",
+          "name": "React",
+          "url": "https://zh-hans.react.dev/",
+          "description": "",
+          "icon": "/sitelogo/zh-hans.react.dev.ico"
+        }
+      ]
     }
   ],
   "title": "代码指引库"
