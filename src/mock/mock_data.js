@@ -430,6 +430,13 @@ export const mockData = {
           "icon": "/sitelogo/www.feishu.cn.ico"
         }
       ]
+    },
+    {
+      "id": "category-1753551850309",
+      "icon": "📃",
+      "name": "官方文档",
+      "order": 0,
+      "sites": []
     }
   ],
   "title": "代码指引库"
