@@ -133,13 +133,6 @@ export const mockData = {
           "url": "https://www.huaweicloud.com",
           "description": "华为云计算服务",
           "icon": "/sitelogo/www.huaweicloud.com.ico"
-        },
-        {
-          "id": "site-1752644060499",
-          "name": "怕死云",
-          "url": "https://www.pasyun.com/",
-          "description": "ipv6机器",
-          "icon": "/sitelogo/www.pasyun.com.ico"
         }
       ]
     },
@@ -162,13 +155,6 @@ export const mockData = {
           "url": "https://code.visualstudio.com",
           "description": "代码编辑器",
           "icon": "/sitelogo/code.visualstudio.com.ico"
-        },
-        {
-          "id": "webstorm",
-          "name": "WebStorm",
-          "url": "https://www.jetbrains.com/webstorm/",
-          "description": "专业前端IDE",
-          "icon": "/sitelogo/www.jetbrains.com.ico"
         },
         {
           "id": "postman",
@@ -262,13 +248,6 @@ export const mockData = {
           "url": "https://www.canva.com",
           "description": "在线设计平台",
           "icon": "/sitelogo/www.canva.com.ico"
-        },
-        {
-          "id": "adobe-xd",
-          "name": "Adobe XD",
-          "url": "https://www.adobe.com/products/xd.html",
-          "description": "用户体验设计工具",
-          "icon": "/sitelogo/www.adobe.com.ico"
         }
       ]
     },
@@ -278,27 +257,6 @@ export const mockData = {
       "icon": "💰",
       "order": 5,
       "sites": [
-        {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
-        },
-        {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
-        },
-        {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
-        },
         {
           "id": "tradingview",
           "name": "TradingView",
@@ -319,13 +277,6 @@ export const mockData = {
           "url": "https://xueqiu.com",
           "description": "聪明的投资者都在这里",
           "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
         },
         {
           "id": "futu",
@@ -481,6 +432,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "代码指引库",
-  "_fileSha": "fa76b0cb6370a570d69ded0400e18cf51d5b1886"
+  "title": "代码指引库"
 }
