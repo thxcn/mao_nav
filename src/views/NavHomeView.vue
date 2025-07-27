@@ -53,7 +53,7 @@
       </nav>
 
       <!-- 左侧边栏底部信息 -->
-      <div class="sidebar-footer">
+      <!-- <div class="sidebar-footer">
         <a
           href="https://github.com/maodeyu180/mao_nav"
           target="_blank"
@@ -66,7 +66,7 @@
           </svg>
           <span>开源不易，Star一下吧！⭐</span>
         </a>
-      </div>
+      </div> -->
     </aside>
 
     <!-- 右侧主内容区 -->
@@ -197,8 +197,9 @@
 
             <div class="footer-bottom">
               <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
+              <p><img :src="beianLogo" alt="工信部ICP备案" class="header-github-icon" @click="openBeian" />京ICP备xxxx号-1</p>
               <p class="footer-tech">基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
-              <img :src="beianLogo" alt="工信部ICP备案" class="header-github-icon" @click="openBeian" />京ICP备xxxx号-1
+             
             </div>
           </footer>
         </div>
@@ -217,7 +218,7 @@ import bingLogo from '@/assets/bing.png'
 import duckLogo from '@/assets/duck.png'
 // 导入GitHub logo
 import githubLogo from '@/assets/github.png'
-
+import mitaLogo from '@/assets/mita.ico'
 import beianLogo from '@/assets/beian.png'
 
 // 使用导航API
@@ -242,10 +243,10 @@ const searchEngines = {
     icon: googleLogo,
     placeholder: 'Google 搜索'
   },
-  baidu: {
-    url: 'https://www.baidu.com/s?wd=',
-    icon: baiduLogo,
-    placeholder: '百度一下'
+  metaso: {
+    url: 'https://metaso.cn/?q=',
+    icon: mitaLogo,
+    placeholder: '秘塔Ai搜索'
   },
   bing: {
     url: 'https://www.bing.com/search?q=',
@@ -256,6 +257,11 @@ const searchEngines = {
     url: 'https://duckduckgo.com/?q=',
     icon: duckLogo,
     placeholder: 'DuckDuckGo 搜索'
+  },
+  github: {
+    url: 'https://github.com/search?q=',
+    icon: githubLogo,
+    placeholder: 'GitHub 搜索'
   }
 }
 
