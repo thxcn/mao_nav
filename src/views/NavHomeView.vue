@@ -78,9 +78,10 @@
             <img :src="searchEngines[selectedEngine].icon" :alt="selectedEngine" class="engine-logo" />
             <select v-model="selectedEngine" class="engine-select">
               <option value="google">Google</option>
-              <option value="baidu">百度</option>
+              <option value="metaso">秘塔Ai</option>
               <option value="bing">Bing</option>
               <option value="duckduckgo">DuckDuckGo</option>
+              <option value="github">GitHub</option>
             </select>
           </div>
           <input
@@ -174,7 +175,7 @@
 
           <!-- 页面底部信息 -->
           <footer class="page-footer">
-            <div class="footer-content">
+            <!-- <div class="footer-content">
               <div class="footer-info">
                 <h3>{{ title || '猫猫导航' }}</h3>
                 <p>一个简洁、美观的导航网站，收录优质网站资源</p>
@@ -193,11 +194,11 @@
                   开源项目
                 </a>
               </div>
-            </div>
+            </div> -->
 
             <div class="footer-bottom">
-              <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
-              <p class="footer-tech"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备xxxx号-1</a> | 基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
+              <p>&copy; {{ new Date().getFullYear() }} 代码指引库 - 根据 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a>的<a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">项目</a>进行调整</p>
+              <p class="footer-tech"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备xxxx号-1</a>  </p>
             </div>
           </footer>
         </div>
@@ -211,13 +212,11 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavigation } from '@/apis/useNavigation.js'
 // 导入搜索引擎logo图片
 import googleLogo from '@/assets/goolge.png'
-import baiduLogo from '@/assets/baidu.png'
 import bingLogo from '@/assets/bing.png'
 import duckLogo from '@/assets/duck.png'
 // 导入GitHub logo
 import githubLogo from '@/assets/github.png'
-import mitaLogo from '@/assets/mita.ico'
-import beianLogo from '@/assets/beian.png'
+import mitaLogo from '@/assets/mita.png'
 
 // 使用导航API
 const { categories, title, loading, error, fetchCategories } = useNavigation()
