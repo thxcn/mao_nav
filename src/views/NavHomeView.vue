@@ -174,7 +174,8 @@
           </section>
 
           <!-- 页面底部信息 -->
-          <footer class="page-footer">
+          <!-- <footer class="page-footer"> -->
+            <footer >
             <!-- <div class="footer-content">
               <div class="footer-info">
                 <h3>{{ title || '猫猫导航' }}</h3>
@@ -197,7 +198,7 @@
             </div> -->
 
             <div class="footer-bottom">
-              <p>&copy; {{ new Date().getFullYear() }} 代码指引库 - 根据 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a>的<a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">项目</a>进行调整</p>
+              <p>&copy; {{ new Date().getFullYear() }} <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="原始源码">代码指引库</a></p>
               <p class="footer-tech"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备xxxx号-1</a>  </p>
             </div>
           </footer>
