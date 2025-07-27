@@ -173,7 +173,7 @@
           </section>
 
           <!-- 页面底部信息 -->
-          <footer class="page-footer" hidden="true">
+          <footer class="page-footer">
             <div class="footer-content">
               <div class="footer-info">
                 <h3>{{ title || '猫猫导航' }}</h3>
@@ -198,6 +198,7 @@
             <div class="footer-bottom">
               <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
               <p class="footer-tech">基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
+              <img :src="beianLogo" alt="工信部ICP备案" class="header-github-icon" @click="openBeian" />京ICP备xxxx号-1
             </div>
           </footer>
         </div>
@@ -216,6 +217,8 @@ import bingLogo from '@/assets/bing.png'
 import duckLogo from '@/assets/duck.png'
 // 导入GitHub logo
 import githubLogo from '@/assets/github.png'
+
+import beianLogo from '@/assets/beian.png'
 
 // 使用导航API
 const { categories, title, loading, error, fetchCategories } = useNavigation()
@@ -398,6 +401,10 @@ const scrollToCategoryMobile = (categoryId) => {
 // 打开GitHub项目页面
 const openGitHub = () => {
   window.open('https://github.com/maodeyu180/mao_nav', '_blank')
+}
+
+const openBeian = () => {
+  window.open('https://beian.miit.gov.cn/', '_blank')
 }
 
 // 组件挂载时获取数据
