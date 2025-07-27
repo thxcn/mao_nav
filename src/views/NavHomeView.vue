@@ -104,7 +104,7 @@
           <div class="mobile-menu-header">
             <div class="header-left">
               <h3>分类导航</h3>
-              <img :src="githubLogo" alt="GitHub" class="header-github-icon" @click="openGitHub" />
+              <!-- <img :src="githubLogo" alt="GitHub" class="header-github-icon" @click="openGitHub" /> -->
             </div>
             <button class="close-btn" @click="closeMobileMenu">×</button>
           </div>
@@ -197,9 +197,7 @@
 
             <div class="footer-bottom">
               <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
-              <p><img :src="beianLogo" alt="工信部ICP备案" class="header-github-icon" @click="openBeian" />京ICP备xxxx号-1</p>
-              <p class="footer-tech">基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
-             
+              <p class="footer-tech"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备xxxx号-1</a> | 基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
             </div>
           </footer>
         </div>
@@ -409,9 +407,6 @@ const openGitHub = () => {
   window.open('https://github.com/maodeyu180/mao_nav', '_blank')
 }
 
-const openBeian = () => {
-  window.open('https://beian.miit.gov.cn/', '_blank')
-}
 
 // 组件挂载时获取数据
 onMounted(() => {
