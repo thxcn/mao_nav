@@ -47,6 +47,18 @@ export const mockData = {
           "url": "https://idcflare.com/",
           "description": "",
           "icon": " https://idcflare.com/uploads/default/optimized/1X/8746f94a48ddc8140e8c7a52084742f38d3f5085_2_512x512.png"
+        },
+        {
+          "id": "site-1761022165816",
+          "name": "NodeSeek",
+          "url": "https://www.nodeseek.com/",
+          "description": ""
+        },
+        {
+          "id": "site-1761022187533",
+          "name": "v2ex",
+          "url": "http://www.v2ex.com/",
+          "description": ""
         }
       ]
     },
@@ -226,6 +238,12 @@ export const mockData = {
           "url": "https://www.52pojie.cn/",
           "description": "软件安全与破解技术论坛",
           "icon": "/sitelogo/www.52pojie.cn.ico"
+        },
+        {
+          "id": "site-1761022207037",
+          "name": "chiphell",
+          "url": "https://www.chiphell.com/",
+          "description": ""
         }
       ]
     },
